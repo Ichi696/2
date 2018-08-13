@@ -1,0 +1,19 @@
+##Тут должен быть такой кусок кода
+## def seazon():
+b = 1
+while b!=0:
+    print ("Введите число от 1 до 12")
+    a = input()
+    if int(a)>=13:
+        print ("Ты дурачек?")
+        continue
+    else:
+        if int(a)==1 or int(a)==2 or int(a)==12:
+            print("Зима")
+        if int(a)==3 or int(a)==4 or int(a)==5:
+            print ("Весна")
+        if int(a)==6 or int(a)==7 or int(a)==8:
+            print ("Лето")
+        if int(a)==9 or int(a)==10 or int(a)==11:
+            print("Осень")
+        break
